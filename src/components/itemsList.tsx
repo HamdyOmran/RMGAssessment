@@ -33,7 +33,7 @@ const ItemsList = ({
   };
 
   const ListFooterComponent = () => {
-    return <View style={{height: 100}} />;
+    return <View style={{height: 260}} />;
   };
 
   return (

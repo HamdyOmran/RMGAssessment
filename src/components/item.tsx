@@ -2,9 +2,9 @@ import React from 'react';
 import {View, Text, StyleSheet, TouchableOpacity} from 'react-native';
 import FastImage from 'react-native-fast-image';
 import HighlightText from '@sanar/react-native-highlight-text';
+import BouncyCheckbox from 'react-native-bouncy-checkbox';
 
 import {ListItemType} from '../utils';
-import BouncyCheckbox from 'react-native-bouncy-checkbox';
 
 interface Props extends ListItemType {
   searchValue: string;
@@ -114,9 +114,11 @@ const styles = StyleSheet.create({
     fontSize: 18,
     fontWeight: 'bold',
     maxWidth: 230,
+    color: '#000000',
   },
   itemDescription: {
     marginVertical: 5,
+    color: '#000000',
   },
   itemPrice: {
     color: 'green',
@@ -132,6 +134,7 @@ const styles = StyleSheet.create({
     padding: 5,
     marginRight: 5,
     borderRadius: 3,
+    color: '#000000',
   },
 });
 
