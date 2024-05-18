@@ -1,6 +1,7 @@
 # RMG Assessment
 
 This React Native app empowers users to manage their items efficiently. Search, sort, view, and delete items from a centralized list, keeping your data organized and readily accessible.
+
 ---
 ## Main technologies used
 * [React Native](https://reactnative.dev/)
