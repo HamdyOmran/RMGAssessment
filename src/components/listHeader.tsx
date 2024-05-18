@@ -45,6 +45,7 @@ const ListHeader = ({
           onChangeText={onSearch}
           style={input}
           placeholder={'Search an item'}
+          placeholderTextColor={'#00000060'}
         />
         <TouchableOpacity style={imageContainer} onPress={onPressSort}>
           <Image source={require('../../assets/sorting.png')} style={image} />
